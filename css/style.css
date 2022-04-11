@@ -6,30 +6,23 @@
 }
 
 /* COMMON */
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
+body {
     background-color: #083b4c;
 }
 
-.container-inner {
+.container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 70%;
-    padding: 1rem;
-    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
 
-    /* test */
-    height: 700px;
-    background-color: darkgreen;
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 50%;
+    background-color: blue;
 }
 
 #title {
@@ -45,6 +38,7 @@
     align-items: center;
     width: 100px;
     height: 100px;
+    margin: 1rem;
     font-size: 1rem;
     font-weight: bold;
     background-color: #1389b2;
